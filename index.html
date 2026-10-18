@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A portfolio of practical data preparation, analysis, and vector similarity work for Tools in Data Science.">
+  <title>Tools in Data Science · Work Portfolio</title>
+  <style>
+    :root { color-scheme: light; --ink: #172c36; --muted: #53656d; --accent: #046c68; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f4f5ef; color: var(--ink); font: 17px/1.65 system-ui, sans-serif; }
+    main { max-width: 1100px; margin: auto; padding: 60px 28px; }
+    .eyebrow { color: var(--accent); font-size: 13px; font-weight: 750; letter-spacing: .13em; text-transform: uppercase; }
+    header { padding: 30px 0 55px; border-bottom: 1px solid #cfd8d4; }
+    h1 { max-width: 850px; margin: 18px 0 22px; font-size: clamp(42px, 7vw, 76px); line-height: 1.06; letter-spacing: -.05em; }
+    .intro { max-width: 620px; color: var(--muted); font-size: 20px; }
+    h2 { margin: 0 0 12px; font-size: 27px; line-height: 1.25; }
+    .projects { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 42px; }
+    article { background: #fff; border: 1px solid #dce3df; border-radius: 16px; padding: 28px; }
+    .number { color: var(--accent); margin: 0 0 30px; font-size: 14px; font-weight: 700; }
+    article p { color: var(--muted); }
+    .tags { font-size: 13px; color: var(--accent); font-weight: 650; }
+    footer { margin-top: 45px; padding-top: 26px; border-top: 1px solid #cfd8d4; }
+    footer p { margin: 8px 0; }
+    a { color: var(--accent); text-underline-offset: 4px; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
+    @media (max-width: 760px) { main { padding: 32px 20px; } .projects { grid-template-columns: 1fr; } header { padding-bottom: 30px; } .number { margin-bottom: 18px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">Tools in Data Science · Graded Assignment 1</div>
+      <h1>Practical data work,<br>from files to findings.</h1>
+      <p class="intro">A selection of assignment work covering data repair, structured analysis, and vector similarity.</p>
+    </header>
+    <section aria-label="Selected work" class="projects">
+      <article>
+        <p class="number">01 / DATA PREPARATION</p>
+        <h2>JSON repair</h2>
+        <p>Repaired a malformed JSON document and checked the resulting structure with a JSON parser.</p>
+        <div class="tags">JSON · Validation · Data quality</div>
+      </article>
+      <article>
+        <p class="number">02 / DATA ANALYSIS</p>
+        <h2>CSV sales analysis</h2>
+        <p>Worked with a sales dataset, applied the requested filters, and calculated an aggregate from structured CSV records.</p>
+        <div class="tags">CSV · Filtering · Aggregation</div>
+      </article>
+      <article>
+        <p class="number">03 / VECTOR METHODS</p>
+        <h2>Cosine similarity</h2>
+        <p>Compared embedding vectors using cosine similarity to identify the closest match for the assignment query.</p>
+        <div class="tags">Embeddings · Linear algebra · Similarity</div>
+      </article>
+    </section>
+    <footer>
+      <p><strong>Contact</strong><br><!--email_off-->24f1002410@ds.study.iitm.ac.in<!--/email_off--></p>
+      <p><a href="https://github.com/kaustubhismyname/tds-ga1-24f1002410">View this portfolio's source on GitHub</a></p>
+    </footer>
+  </main>
+</body>
+</html>
